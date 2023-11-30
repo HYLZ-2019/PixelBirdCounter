@@ -9,7 +9,7 @@ A tool for counting pixel birds in photos.
 * 如果有条件自己配环境：
 创建虚拟环境，导入附件中的.yaml文件配置环境，然后命令行运行附件中的python脚本pixelbird.py即可。具体的来说：
 ```
-conda env create -f pixelbird_requirements.yml
+conda env create -f pixelbird_requirements.yaml
 conda activate pixelbird
 （切换到脚本所在的目录，这里应该同时有countbird.py和pixelbird.py）
 python pixelbird.py
